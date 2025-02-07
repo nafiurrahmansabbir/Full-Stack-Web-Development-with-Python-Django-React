@@ -1,0 +1,12 @@
+filename="Functions and File Handling/file/input.txt"
+# fp=open(filename,'a')
+# # content=fp.read()
+# content2=fp.write("I added some note bro\n")
+# fp.close()
+
+# print(content2)
+
+
+with open(filename) as file:
+    content=file.read()
+    print(content)
